@@ -11,17 +11,14 @@
 
 <body>
     <header>
-        <button class="togglebtn" onclick="toggleSidebar()">☰</button>
         <h1>Wasteless</h1>
         <h2>Smart Fridge: Reducing Food Waste with AI</h2>
     </header>
 
-    <div id="sidebar" class="sidebar">
-        <ul>
-            <li><a href="#about">About the Project</a></li>
-            <li><a href="#demo">Try It Out</a></li>
-        </ul>
-    </div>
+    <nav>
+        <button class="navbtn" onclick="scrollToSection('about')">About the Project</button>
+        <button class="navbtn" onclick="scrollToSection('demo')">Try It Out</button>
+    </nav>
 
     <main>
         <section id="about">
@@ -43,6 +40,11 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 
 </html>
