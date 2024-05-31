@@ -116,3 +116,7 @@ footer {
     padding: 1em 0;
     flex-shrink: 0;
 }
+
+#about {
+    margin-top:5%;
+}
