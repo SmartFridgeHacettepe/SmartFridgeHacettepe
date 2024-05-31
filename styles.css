@@ -66,6 +66,7 @@ nav {
 .navbtn:hover {
     background-color: #16a085;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px); /* Add a slight upward movement on hover */
 }
 
 /* Main content styles */
