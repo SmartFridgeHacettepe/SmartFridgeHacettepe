@@ -17,7 +17,8 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
-    margin-bottom: 5%; /* Adjusted to remove the gap */
+    margin-bottom: 1%;
+    /* Adjusted to remove the gap */
     position: fixed;
     top: 0;
     left: 0;
@@ -45,7 +46,8 @@ nav {
     padding: 10px 0;
     gap: 20px;
     position: fixed;
-    top: 100px; /* Adjusted to be closer to the header */
+    top: 100px;
+    /* Adjusted to be closer to the header */
     left: 0;
     width: 100%;
     z-index: 1001;
@@ -71,13 +73,15 @@ nav {
 
 /* Main content styles */
 main {
-    padding: 130px 2em 2em 2em; /* Adjusted padding */
+    padding: 130px 2em 2em 2em;
+    /* Adjusted padding */
     flex: 1 0 auto;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
     position: relative;
     z-index: 1;
+    margin-top: 2em;
 }
 
 
