@@ -17,6 +17,7 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
+    margin-bottom: 0; /* Adjusted to remove the gap */
     position: fixed;
     top: 0;
     left: 0;
