@@ -42,13 +42,13 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #34495e;
-    padding: 10px 0; /* Reduced padding */
+    padding: 10px 0;
     gap: 20px;
     position: fixed;
-    top: 130px; /* Adjusted to be below the header */
+    top: 100px; /* Adjusted to be closer to the header */
     left: 0;
     width: 100%;
-    z-index: 1001; /* Increased z-index */
+    z-index: 1001;
 }
 
 .navbtn {
