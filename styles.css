@@ -17,7 +17,7 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
-    margin-bottom: 0; /* Adjusted to remove the gap */
+    margin-bottom: 5%; /* Adjusted to remove the gap */
     position: fixed;
     top: 0;
     left: 0;
@@ -115,8 +115,4 @@ footer {
     text-align: center;
     padding: 1em 0;
     flex-shrink: 0;
-}
-
-#about {
-    margin-top:5%;
 }
