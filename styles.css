@@ -23,6 +23,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
+    border-bottom: 3px solid #1abc9c;
 }
 
 header h1 {
@@ -45,7 +46,7 @@ nav {
     padding: 20px 0;
     gap: 20px;
     position: fixed;
-    top: 80px; /* Adjusted to be below the header */
+    top: 85px; /* Adjusted to be below the header */
     left: 0;
     width: 100%;
     z-index: 999;
@@ -57,7 +58,6 @@ nav {
     background-color: #1abc9c;
     color: white;
     padding: 15px 30px;
-    margin: 0 10px;
     border: none;
     border-radius: 25px;
     transition: all 0.3s ease;
