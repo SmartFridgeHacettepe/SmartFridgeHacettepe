@@ -18,8 +18,11 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
-    position: relative;
-    flex-shrink: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 header h1 {
@@ -41,6 +44,11 @@ nav {
     background-color: #34495e;
     padding: 20px 0;
     gap: 20px;
+    position: fixed;
+    top: 80px; /* Adjusted to be below the header */
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 .navbtn {
@@ -63,7 +71,7 @@ nav {
 
 /* Main content styles */
 main {
-    padding: 2em;
+    padding: 160px 2em 2em 2em; /* Adjusted padding to avoid overlapping with fixed header and nav */
     flex: 1 0 auto;
     text-align: center;
     max-width: 800px;
