@@ -47,6 +47,7 @@ nav {
     gap: 20px;
     position: fixed;
     top: 100px;
+    margin-bottom: 4%;
     /* Adjusted to be closer to the header */
     left: 0;
     width: 100%;
@@ -81,7 +82,7 @@ main {
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    margin-top: 2em;
+    margin-top: 5%;
 }
 
 
