@@ -45,7 +45,7 @@ nav {
     padding: 20px 0;
     gap: 20px;
     position: fixed;
-    top: 85px; /* Adjusted to be below the header */
+    top: 130px; /* Adjusted to be below the header */
     left: 0;
     width: 100%;
     z-index: 999;
@@ -71,7 +71,7 @@ nav {
 
 /* Main content styles */
 main {
-    padding: 180px 2em 2em 2em; /* Adjusted padding to avoid overlapping with fixed header and nav */
+    padding: 220px 2em 2em 2em; /* Adjusted padding to avoid overlapping with fixed header and nav */
     flex: 1 0 auto;
     text-align: center;
     max-width: 800px;
