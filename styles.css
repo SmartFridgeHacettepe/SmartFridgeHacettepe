@@ -71,7 +71,7 @@ nav {
 
 /* Main content styles */
 main {
-    padding: 230px 2em 2em 2em; /* Adjusted padding */
+    padding: 160px 2em 2em 2em; /* Adjusted padding */
     flex: 1 0 auto;
     text-align: center;
     max-width: 800px;
@@ -79,6 +79,7 @@ main {
     position: relative;
     z-index: 1;
 }
+
 
 section {
     margin-bottom: 2em;
