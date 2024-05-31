@@ -43,10 +43,10 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #34495e;
-    padding: 10px 0;
-    gap: 20px;
+    padding: 1em 0;
+    gap: 2em;
     position: fixed;
-    top: 100px;
+    top: 6.5em;
     margin-bottom: 4%;
     /* Adjusted to be closer to the header */
     left: 0;
@@ -59,11 +59,11 @@ nav {
     cursor: pointer;
     background-color: #1abc9c;
     color: white;
-    padding: 15px 30px;
+    padding: 0.75em 1em;
     border: none;
-    border-radius: 25px;
+    border-radius: 0.75em;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.05em 0.1em rgba(0, 0, 0, 0.1);
 }
 
 .navbtn:hover {
@@ -78,7 +78,7 @@ main {
     /* Adjusted padding */
     flex: 1 0 auto;
     text-align: center;
-    max-width: 800px;
+    max-width: 65%;
     margin: 0 auto;
     position: relative;
     z-index: 1;
