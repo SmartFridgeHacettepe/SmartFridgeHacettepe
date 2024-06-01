@@ -195,4 +195,15 @@ footer {
         font-size: 1.2em;
         /* Adjust subheading font size for smaller screens */
     }
+    main {
+        max-width: 75%;
+        }
+    .poster {
+        width: 70%;
+    }
+
+    .presentation-video {
+        width: 70%;
+    }
+
 }
