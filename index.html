@@ -7,18 +7,28 @@
     <title>Smart Fridge</title>
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.31.3/gradio.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>Smart Fridge</h1>
-        <h2>Reducing Food Waste with AI</h2>
+        <div class="header-content">
+            <img src="logo-hacettepe.png" alt="Hacettepe Logo" class="logo">
+            <div>
+                <h1>Smart Fridge</h1>
+                <h2>Reducing Food Waste with AI</h2>
+            </div>
+        </div>
     </header>
 
     <nav>
         <button class="navbtn" onclick="scrollToSection('about')">About the Project</button>
         <button class="navbtn" onclick="scrollToSection('demo')">Try It Out</button>
+        <button class="navbtn" onclick="scrollToSection('team')">Project Team</button>
+        <a target="_blank" class="navbtn poster-btn" href="smart-fridge-poster.pdf"
+            download="smart-fridge-poster.pdf">Download Poster</a>
     </nav>
+
 
     <main>
         <section id="about">
@@ -33,13 +43,23 @@
             <p>Upload an image of your fruits and vegetables to detect rotten parts using our AI-powered system.</p>
             <gradio-app src="https://emre06c-smart-fridge.hf.space"></gradio-app>
         </section>
+
+        <section id="team">
+            <h3>Project Team</h3>
+            <ul class="team-list">
+                <li>Abdullah Enes Ergün</li>
+                <li>Baha Kırbaşoğlu</li>
+                <li>Can Ali Ateş</li>
+                <li>Emre Çoban</li>
+            </ul>
+            <p>Supervisor: Prof. Dr. Erkut Erdem</p>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Wasteless Project Team. All rights reserved.</p>
+        <p>&copy; 2024 Smart Fridge Project Team. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 
 </html>
