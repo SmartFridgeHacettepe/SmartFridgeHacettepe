@@ -1,3 +1,5 @@
+/* CSS for mobile devices */
+
 /* General styles */
 body {
     font-family: 'Roboto', sans-serif;
@@ -31,7 +33,7 @@ header {
 }
 
 .logo {
-    height: 3em;
+    height: 3.5em;
     margin-right: 1em;
 }
 
@@ -63,10 +65,12 @@ nav {
 
 .navbtn {
     font-size: 0.95em;
+    /* Adjust font size for mobile */
     cursor: pointer;
     background-color: #1abc9c;
     color: white;
-    padding: 0.75em 1em;
+    padding: 0.5em 1em;
+    /* Adjust padding for mobile */
     border: none;
     border-radius: 0.75em;
     transition: all 0.3s ease;
@@ -75,7 +79,6 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
 .navbtn:hover {
@@ -158,4 +161,26 @@ footer {
     text-align: center;
     padding: 1em 0;
     flex-shrink: 0;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbtn {
+        font-size: 0.8em;
+        /* Further reduce font size for smaller screens */
+    }
+
+    nav {
+        top: 5.6em;
+    }
+
+    header h1 {
+        font-size: 2em;
+        /* Adjust heading font size for smaller screens */
+    }
+
+    header h2 {
+        font-size: 1.2em;
+        /* Adjust subheading font size for smaller screens */
+    }
 }
