@@ -37,9 +37,7 @@ header {
     margin-right: 1em;
 }
 
-.poster {
-    width: 50%;
-}
+
 
 header h1 {
     margin: 0;
@@ -114,6 +112,13 @@ main {
     margin-top: 6.5%;
 }
 
+.poster {
+    width: 55%;
+}
+.presentation-video{
+    width: 55%;
+}
+
 section {
     margin-bottom: 2em;
 }
@@ -158,6 +163,8 @@ p {
     margin: 0.5em 0;
 }
 
+
+
 /* Footer styles */
 footer {
     background-color: #34495e;
@@ -171,6 +178,7 @@ footer {
 @media screen and (max-width: 768px) {
     .navbtn {
         font-size: 0.8em;
+        padding: 0.3em 0.55em;
         /* Further reduce font size for smaller screens */
     }
 
