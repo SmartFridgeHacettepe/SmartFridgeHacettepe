@@ -115,8 +115,32 @@ main {
 .poster {
     width: 55%;
 }
-.presentation-video{
+
+.presentation-video {
     width: 55%;
+    display: block;
+    margin: 0 auto 20px;
+    /* Center the video and add margin below */
+}
+
+.github-btn {
+    display: block;
+    /* Change to block to make it appear below */
+    background-color: #4674a3;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.75em;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+    /* Adjust width to fit the content */
+    margin: 0 auto;
+    /* Center the button */
+}
+
+.github-btn:hover {
+    background-color: #34495e;
 }
 
 section {
